@@ -6,7 +6,8 @@ public class ShowText : MonoBehaviour
    {
       if (other.gameObject.CompareTag("Player"))
       {
-         Destroy(this.gameObject);
+         //if player collides with scroll object, increase scrollScore
+         GameManager.Instance.scrollScore++;
       }
    }
 }
