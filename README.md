@@ -1,5 +1,3 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+#CODE LAB WEEK 2: Singletons
 
-DO NOT LEAVE IT LIKE THIS!!!
-
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+Using the same game I created for the week 1 homework, I expanded by having the player collect floating objects. After collecting a certain "target" number, the player is transported to the next room.
