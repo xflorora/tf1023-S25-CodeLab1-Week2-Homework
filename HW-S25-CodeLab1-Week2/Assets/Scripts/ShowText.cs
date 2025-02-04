@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ShowText : MonoBehaviour
@@ -8,6 +9,8 @@ public class ShowText : MonoBehaviour
       {
          //if player collides with scroll object, increase scrollScore
          GameManager.Instance.scrollScore++;
+
+         Destroy(this.gameObject);
       }
    }
 }
